@@ -2,4 +2,3 @@ streamlit
 pandas==1.5.3
 Pillow
 plotly==5.13.0
-sqlite3
