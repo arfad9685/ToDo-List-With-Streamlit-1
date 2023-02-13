@@ -41,7 +41,7 @@ if choice == "Create Task ✅":
 
 	with col1:
 		task = st.text_area("Task To Do")
-		task_assign = st.selectbox("Assigned",["MAF","Udin","Anto"])
+		task_assign = st.selectbox("Assigned",["Soegih Dharmawan","Apip Subhan","Ade Jatnika","Anshah Ridhwan","Budi Rahardi","Dedi Sungkowo","Dani widjaja","Anthoni Daniawan","Eris","Zahid","Zuhan","Dede S","Fajar","Yuri","Saepudin"])
 
 	with col2:
 		task_status = st.selectbox("Status",["ToDo","Doing","Done"])
@@ -73,7 +73,7 @@ elif choice == "Update Task 👨‍💻":
 
 		with col1:
 			new_task = st.text_area("Task To Do",task)
-			new_task_assign = st.selectbox(task_assign,["MAF","Udin","Anto"])
+			new_task_assign = st.selectbox(task_assign,["Soegih Dharmawan","Apip Subhan","Ade Jatnika","Anshah Ridhwan","Budi Rahardi","Dedi Sungkowo","Dani widjaja","Anthoni Daniawan","Eris","Zahid","Zuhan","Dede S","Fajar","Yuri","Saepudin"])
 
 		with col2:
 			new_task_status = st.selectbox(task_status,["To Do","Doing","Done"])
@@ -127,4 +127,4 @@ else:
                                  'Doing':'orange'})
 		st.plotly_chart(p1,use_container_width=True)
 
-st.markdown("<br><hr><center>Made with ❤️ by <a href='mailto:fadilah.arif9685@gmail.com?subject=ToDo WebApp!&body=Please specify the issue you are facing with the app.'><strong>Arif Fadilah</strong></a></center><hr>", unsafe_allow_html=True)
+st.markdown("<br><hr><center>Made by <a href='mailto:fadilah.arif9685@gmail.com?subject=ToDo WebApp!&body=Please specify the issue you are facing with the app.'><strong>Arif Fadilah</strong></a></center><hr>", unsafe_allow_html=True)
